@@ -1,24 +1,11 @@
 {
-  "name": "alx-frontend-javascript",
-  "version": "1.0.0",
-  "description": "Modern frontend engineering with Alx",
-  "main": "index.js",
   "scripts": {
     "lint": "./node_modules/.bin/eslint",
     "check-lint": "lint [0-9]*.js",
     "dev": "npx babel-node",
     "test": "jest",
-    "full-test": "./node_modules/.bin/eslint [0-9]*.js && jest"},
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/ifedolapoomoniyi/alx-frontend-javascript.git"
+    "full-test": "./node_modules/.bin/eslint [0-9]*.js && jest"
   },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/ifedolapoomoniyi/alx-frontend-javascript/issues"
-  },
-  "homepage": "https://github.com/ifedolapoomoniyi/alx-frontend-javascript#readme",
   "devDependencies": {
     "@babel/core": "^7.6.0",
     "@babel/node": "^7.8.0",
